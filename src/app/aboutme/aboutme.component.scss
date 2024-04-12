@@ -1,0 +1,30 @@
+.hello-area {
+  display: grid;
+  justify-items: center;
+}
+
+.hobbies-area {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-self: center;
+}
+
+.img-area {
+  display: flex;
+  justify-content: center;
+}
+
+.hobby-img {
+  width: 50%;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .hobbies-area {
+    display: block;
+  }
+
+  .hobby-img {
+    width: 100%;
+  }
+}
