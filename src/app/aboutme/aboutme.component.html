@@ -1,5 +1,5 @@
 <div class="hello-area">
-  <h1 (mouseover)="changeHelloMessage()">
+  <h1 class="greeting-title" (click)="changeHelloMessage()">
     {{ helloMessages[currentLanguageIndex()] }}!
   </h1>
   <p>Mein Name ist Sahid Fakiry und ich bin {{ age }} Jahre alt.</p>
@@ -29,8 +29,25 @@
   <h2>Know-How</h2>
   <p>
     Ich habe in meiner vierjährigen Ausbildung zum Applikationsentwickler mein
-    Wissen in MS SQL Server, Angular und C# aufgebaut.
+    Wissen in MS SQL Server, C# und Angular aufgebaut.
   </p>
+
+  <div>
+    <div>
+      <img class="know-how-icon" src="assets/sql.png" alt="SQL Server" />
+      <p>MS SQL Server</p>
+    </div>
+
+    <div>
+      <img class="know-how-icon" src="assets/backend.png" alt="C#" />
+      <p>C#</p>
+    </div>
+
+    <div>
+      <img class="know-how-icon" src="assets/frontend.png" alt="Angular" />
+      <p>Angular</p>
+    </div>
+  </div>
 </div>
 
 <div>

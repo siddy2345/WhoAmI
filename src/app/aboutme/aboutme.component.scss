@@ -1,3 +1,7 @@
+.greeting-title {
+  cursor: pointer;
+}
+
 .hello-area {
   display: grid;
   justify-items: center;
@@ -15,6 +19,10 @@
 }
 
 .hobby-img {
+  width: 50%;
+}
+
+.know-how-icon {
   width: 50%;
 }
 
