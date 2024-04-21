@@ -22,17 +22,38 @@
   width: 50%;
 }
 
+.know-how-cards {
+  display: flex;
+  gap: 1rem;
+
+  .know-how-cards-item {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    background-color: #add588;
+    border-radius: 1rem;
+  }
+}
+
+
 .know-how-icon {
-  width: 50%;
+  width: 15%;
+  height: fit-content;
+  padding-left: 1rem;
 }
 
 
 @media only screen and (max-width: 600px) {
   .hobbies-area {
-    display: block;
+    display: flex;
+    flex-direction: column;
   }
 
   .hobby-img {
     width: 100%;
+  }
+
+  .know-how-cards {
+    flex-direction: column;
   }
 }
