@@ -32,6 +32,15 @@
     gap: 1rem;
     background-color: #add588;
     border-radius: 1rem;
+
+    .know-how-list li {
+      padding-left: 0.5rem;
+    }
+
+    .know-how-list li::marker {
+      content: "▹";
+      color: #516d35;
+    }
   }
 }
 
