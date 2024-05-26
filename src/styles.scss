@@ -5,11 +5,18 @@ html {
   font-family: "Roboto", sans-serif;
   font-weight: 300;
   font-style: normal;
+  position: relative;
+
+  a {
+    color: #81bc4c;
+  }
 
   footer {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    margin-top: 1rem;
     background-color: #7b9662;
-    height: 10vh;
-    margin: 1rem -0.5rem -0.5rem -0.5rem;
 
     .icon-credit {
       padding: 1rem 0.5rem;
