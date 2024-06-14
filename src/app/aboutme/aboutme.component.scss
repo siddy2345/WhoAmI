@@ -1,27 +1,27 @@
-.greeting-title {
-  cursor: pointer;
-  user-select: none;
-}
+// .greeting-title {
+//   cursor: pointer;
+//   user-select: none;
+// }
 
-.hello-area {
-  display: grid;
-  justify-items: center;
-}
+// .hello-area {
+//   display: grid;
+//   justify-items: center;
+// }
 
-.hobbies-area {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  justify-self: center;
-}
+// .hobbies-area {
+//   display: grid;
+//   grid-template-columns: 1fr 1fr;
+//   justify-self: center;
+// }
 
-.img-area {
-  display: flex;
-  justify-content: center;
-}
+// .img-area {
+//   display: flex;
+//   justify-content: center;
+// }
 
-.hobby-img {
-  width: 50%;
-}
+// .hobby-img {
+//   width: 50%;
+// }
 
 .know-how-cards {
   display: flex;
@@ -31,7 +31,6 @@
     display: flex;
     align-items: center;
     gap: 1rem;
-    background-color: #add588;
     border-radius: 1rem;
 
     .know-how-list li {
@@ -40,7 +39,6 @@
 
     .know-how-list li::marker {
       content: "▹";
-      color: #516d35;
     }
   }
 }
@@ -53,17 +51,17 @@
 }
 
 
-@media only screen and (max-width: 1024px) {
-  .hobbies-area {
-    display: flex;
-    flex-direction: column;
-  }
+// @media only screen and (max-width: 1024px) {
+//   .hobbies-area {
+//     display: flex;
+//     flex-direction: column;
+//   }
 
-  .hobby-img {
-    width: 100%;
-  }
+//   .hobby-img {
+//     width: 100%;
+//   }
 
-  .know-how-cards {
-    flex-direction: column;
-  }
-}
+//   .know-how-cards {
+//     flex-direction: column;
+//   }
+// }
